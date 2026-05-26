@@ -185,7 +185,7 @@ with col1:
     st.caption("Our first pic together ❤️")
 
 with col2:
-    us2 = resize_image("us\cuties.jpeg")
+    us2 = resize_image("us/cuties.jpeg")
     st.image(us2)
     st.caption("Every moment with you feels special ❤️")
 st.write("")
@@ -193,18 +193,18 @@ st.write("")
 col3, col4 = st.columns(2)
 
 with col3:
-    us3 = resize_image("us\holdmelikethis.jpeg")
+    us3 = resize_image("us/holdmelikethis.jpeg")
     st.image(us3)
     st.caption("Us against the world ❤️")
 
 with col4:
-    us4 = resize_image("us\ethnic.jpeg")
+    us4 = resize_image("us/ethnic.jpeg")
     st.image(us4)
     st.caption("I wish time stopped here ❤️")
 col5, col6 = st.columns(2)
 
 with col5:
-    us3 = resize_image("us\Varansi.jpeg")
+    us3 = resize_image("us/Varansi.jpeg")
     st.image(us3)
     st.caption("Koto shundor time spend korechilam")
 
@@ -215,23 +215,23 @@ with col6:
 col7, col8 = st.columns(2)
 
 with col7:
-    us3 = resize_image("us\ssexy.jpeg")
+    us3 = resize_image("us/ssexy.jpeg")
     st.image(us3)
     st.caption("So Sexyyy")
 
 with col8:
-    us4 = resize_image("us\hot.jpeg")
+    us4 = resize_image("us/hot.jpeg")
     st.image(us4)
     st.caption("We are soo Hot")
 col9, col10 = st.columns(2)
 
 with col9:
-    us3 = resize_image("us\kissme.jpeg")
+    us3 = resize_image("us/kissme.jpeg")
     st.image(us3)
     st.caption("Love when you kiss me")
 
 with col10:
-    us4 = resize_image("us\kissyou.jpeg")
+    us4 = resize_image("us/kissyou.jpeg")
     st.image(us4)
     st.caption("I love kissing you")
     
