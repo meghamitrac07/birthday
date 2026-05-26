@@ -180,7 +180,7 @@ st.header("Our Memories Together ❤️")
 col1, col2 = st.columns(2)
 
 with col1:
-    us1 = resize_image("us\\firstpic.jpeg")
+    us1 = resize_image("us/firstpic.jpeg")
     st.image(us1)
     st.caption("Our first pic together ❤️")
 
@@ -209,7 +209,7 @@ with col5:
     st.caption("Koto shundor time spend korechilam")
 
 with col6:
-    us4 = resize_image("us\\drajeeling.jpeg")
+    us4 = resize_image("us/drajeeling.jpeg")
     st.image(us4)
     st.caption("Together in Daejeeling as well")
 col7, col8 = st.columns(2)
@@ -235,7 +235,7 @@ with col10:
     st.image(us4)
     st.caption("I love kissing you")
     
-audio_file = open("songs\\amar_mote.mp3", "rb")
+audio_file = open("songs/amar_mote.mp3", "rb")
 audio_bytes = audio_file.read()
 
 st.audio(audio_bytes, format="audio/mp3")
