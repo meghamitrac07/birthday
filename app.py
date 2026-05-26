@@ -46,6 +46,9 @@ This is for you ❤️
 """, unsafe_allow_html=True)
 from PIL import Image
 import streamlit as st
+    
+audio_file = open("songs/amar_mote.mp3", "rb")
+audio_bytes = audio_file.read()
 st.audio(audio_bytes, format="audio/mp3")
 st.markdown("""
 <div style='text-align:center; color:#666; font-size:18px;'>
@@ -242,9 +245,7 @@ with col10:
     us4 = resize_image("us/kissyou.jpeg")
     st.image(us4)
     st.caption("I love kissing you")
-    
-audio_file = open("songs/amar_mote.mp3", "rb")
-audio_bytes = audio_file.read()
+
 
 
 
