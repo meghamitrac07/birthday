@@ -152,7 +152,7 @@ st.markdown(
 
     Happy Birthday Baby.Ik amader onek jhogra hoye shob problems hoye but i laways want the best things for you.Tui jeno life e onek boro hosh
     and shob achieve korish.May this 21st Birthday get you everything you ever wished for.Tor sathe its been 3 years since i have known you,
-    tao everyday i learn something new about you. I love you very much.I will spend my life trying to be b3\etter and taking care of you.
+    tao everyday i learn something new about you. I love you very much.I will spend my life trying to be better and taking care of you.
 
     I love us ❤️
 
