@@ -46,6 +46,14 @@ This is for you ❤️
 """, unsafe_allow_html=True)
 from PIL import Image
 import streamlit as st
+st.audio(audio_bytes, format="audio/mp3")
+st.markdown("""
+<div style='text-align:center; color:#666; font-size:18px;'>
+This song will always remind me of you ❤️
+</div>
+""", unsafe_allow_html=True)
+st.write("")
+st.divider()
 
 # FUNCTION TO RESIZE ALL IMAGES SAME SIZE
 def resize_image(image_path):
@@ -238,14 +246,7 @@ with col10:
 audio_file = open("songs/amar_mote.mp3", "rb")
 audio_bytes = audio_file.read()
 
-st.audio(audio_bytes, format="audio/mp3")
-st.markdown("""
-<div style='text-align:center; color:#666; font-size:18px;'>
-This song will always remind me of you ❤️
-</div>
-""", unsafe_allow_html=True)
-st.write("")
-st.divider()
+
 
 st.header("Little Things I Want To Tell You ❤️")
 if st.button("Click Me ❤️"):
