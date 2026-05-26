@@ -97,7 +97,7 @@ with col5:
     st.caption("This is my Fav Pic ❤️")
 
 with col6:
-    img6 = resize_image("thisismyfav.jpeg")
+    img6 = resize_image("him/thisismyfav.jpeg")
     st.image(img6)
     st.caption("This new look is so good ❤️")
 
@@ -180,7 +180,7 @@ st.header("Our Memories Together ❤️")
 col1, col2 = st.columns(2)
 
 with col1:
-    us1 = resize_image("us\firstpic.jpeg")
+    us1 = resize_image("us\\firstpic.jpeg")
     st.image(us1)
     st.caption("Our first pic together ❤️")
 
